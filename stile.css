@@ -1,0 +1,97 @@
+/* Impostazioni generali */
+body {
+    font-family: 'Candara', 'Georgia', serif;
+    margin: 0;
+    background-color: #e0f7fa; /* Azzurro molto chiaro */
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #008080; /* Verde acqua */
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+nav.menu {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.menu-item {
+    display: inline-flex; /* Cambia da inline-block a inline-flex */
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Mantiene la forma circolare */
+    background-color: #ADD8E6;
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    word-wrap: break-word; /* Permette la divisione delle parole */
+}
+
+/* Colori sfumati per i cerchi del menu */
+#morfologia {
+    background-color: #87CEFA; /* Azzurro */
+}
+
+#sintassi {
+    background-color: #40E0D0; /* Turchese */
+}
+
+#lessico {
+    background-color: #3CB371; /* Verde medio */
+}
+
+#trucchi {
+    background-color: #FFB6C1; /* Rosa chiaro */
+}
+
+#letteratura {
+    background-color: #FF69B4; /* Rosa brillante */
+}
+
+.menu-item:hover {
+    transform: scale(1.1);
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.section-content {
+    padding: 40px;
+    background-color: #f5fff5; /* Sfondo verde chiaro per i contenuti */
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #008000; /* Verde scuro per i titoli delle sezioni */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #008000; /* Verde scuro */
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
